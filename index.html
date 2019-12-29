@@ -1,0 +1,116 @@
+<!--The <!DOCTYPE> declaration must be the very first thing in your HTML document,
+before the <html> tag.
+The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web
+ browser about what version of HTML the page is written in.>
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Metadata is data (information) about data.
+         The <meta> tag provides metadata about the HTML document.
+         This one tells the browser that text within web page
+         is encoded using UTF 8 encoding system -->
+
+  </head>
+  <body>
+    <table cellspacing="20">
+      <tr>
+        <td><img src="CV slika mala.jpg" style="height:60%;" alt="Uopaa">
+        <!--uvezivanje slike sa source-a zadate adresse. Ukoliko pak nas browser ne
+        dobije dozvolu sa adresse slike da je preuzme, nece imati sta da prikaze
+        ali slika se moze izvuci i iz foldera u kom je i sam kod sacuvan -->
+        </td>
+        <td><h1><strong>Đorđe Đolić</strong></h1>
+          <!--Browsers display <strong> as <b>, and <em> as <i>. However,
+             there is a difference in the meaning of these tags:
+             <b> and <i> defines bold and italic text,
+             but <strong> and <em> means that the text is "important".-->
+        <p><em>M.Sc. Engineer of Electrical Engineering</em></p>
+        <p><em>**Radar engineer with IT tencency, made this site just for fun and learning</em></p>
+
+        <p><a href="My contact.html"target="_blank">My contact</a></p>
+        <!--The <a> tag defines a hyperlink,
+         which is used to link from one page to another.
+        The most important attribute of the <a> element is the href attribute,
+         which indicates the link's destination.-->
+        </td>
+      </tr>
+    </table>
+    <hr> <!--adds horisontal line-->
+
+    <h2><strong>Education</strong></h2>
+    <ul>  <!-- unordered list -->
+      <li>2017-2019 MSc in Electrical Engineering / School of Electrical Engineering, University of Belgrade, Serbia</li> <!-- list item-->
+      <li>2013-2017 BSc in Electrical Engineering / Military Academy, University of Defence of the Republic of Serbia</li>
+    </ul>
+    <hr>
+    <h2><strong>Work Experience</strong></h2>
+    <table cellspacing=10>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Job</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2018-present</td>
+          <td>Electrical engineer at Ministry of Defence of Republic of Serbia</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+    <hr>
+
+    <h2><strong>Skills</strong></h2> <!-- here are nested tables-->
+    <table border="1">
+      <tr>
+        <td><table cellspacing=10>
+          <tr>
+            <td>Frontend </td>
+            <td>&#x2B50 </td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td> &#x2B50 &#x2B50</td>
+          </tr>
+          <tr>
+            <td>C</td>
+            <td> &#x2B50</td>
+          </tr>
+          <tr>
+            <td>Radar</td>
+            <td> &#x2B50 &#x2B50 &#x2B50</td>
+          </tr>
+        </table></td>
+        <td><table cellspacing=10>
+          <tr>
+            <td>Flexibility </td>
+            <td>&#x2B50 &#x2B50 &#x2B50 &#x2B50 &#x2B50</td>
+          </tr>
+          <tr>
+            <td>Team player </td>
+            <td>&#x2B50 &#x2B50 &#x2B50 &#x2B50 &#x2B50</td>
+          </tr>
+          <tr>
+            <td>Active learner </td>
+            <td>&#x2B50 &#x2B50 &#x2B50 &#x2B50 &#x2B50</td>
+          </tr>
+          <tr>
+            <td>Communicative </td>
+            <td>&#x2B50 &#x2B50 &#x2B50 &#x2B50 &#x2B50</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+
+    <hr>
+    <p><a href="hobbies.html">My hobbies</a></p>
+
+
+  </body>
+
+</html>
